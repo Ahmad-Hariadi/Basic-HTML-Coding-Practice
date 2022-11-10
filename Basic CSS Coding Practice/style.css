@@ -1,0 +1,141 @@
+/* reset */
+html,
+body,
+* {
+    margin : 0;
+    padding : 0;
+}
+
+.header {
+    margin : 3vh 0;
+    padding : 3vh;
+    background-color: #d5d5cd;
+}
+
+.navbar {
+    width: 18%;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color : black;
+    font-size: x-large;
+}
+
+.left {
+    margin-top: 2vh;
+    width: 25vw;
+    height: 74vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.satu {
+    width: 3.5vw;
+    height: 7vh;
+    background-color: purple;
+    border-radius: 6px;
+}
+
+.dua {
+    width: 3.5vw;
+    height: 7vh;
+    background-color: blue;
+    border-radius: 6px;
+}
+
+.tiga {
+    width: 3.5vw;
+    height: 7vh;
+    background-color: red;
+    border-radius: 6px;
+}
+
+.empat {
+    width: 3.5vw;
+    height: 7vh;
+    background-color: black;
+    border-radius: 6px;
+}
+
+.lima {
+    width: 3.5vw;
+    height: 7vh;
+    background-color: brown;
+    border-radius: 6px;
+}
+
+.center {
+    border: 1px solid black;
+    border-radius: 3vh;
+    margin-top: 2vh;
+    margin-left: 20px;
+    width: 40vw;
+    height: 80vh;
+}
+
+.center img {
+    width: 38vw;
+    height: 70vh;
+    padding: 35px;
+    padding-left: 0;
+}
+
+.right {
+    margin-top: 2vh;
+    margin-left: 15px;
+    width: 25vw;
+    height: 64vh;
+}
+
+.content button {
+    background-color: #fcb8dd;
+    margin-top: 8px;
+    width: 17vw;
+    height: 2.5vh;
+}
+
+footer {
+    background-color: #d5d5cd;
+    margin-top: 8vh;
+    height: 40vh;
+}
+
+footer h2 {
+    margin-top: 10vh;
+    margin-bottom: 9vh;
+    padding-top: 4vh;
+    text-align: center;
+}
+
+.footer-start,
+.footer-mid,
+.footer-end {
+    display: flex;
+    flex-direction: column;
+}
+
+.tb-foot {
+    margin: auto;
+}
+
+.tb-foot a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-start {
+    position: relative;
+    left: -50vh;
+}
+
+.footer-end {
+    position: relative;
+    left: 50vh;
+}
+
